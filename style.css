@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(45deg, #190361 0%, #b0f 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+main {
+  width: 428px;
+  padding: 48px 64px 64px 64px;
+
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.8);
+}
+
+/* Cookie Open */
+#cookieOpen h1 {
+  color: #34355b;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#cookieOpen p {
+  color: #34355b;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  margin-top: 14px;
+  margin-bottom: 27px;
+}
+
+/* Cookie Close */
+#cookieClosed h1 {
+  width: 297px;
+  padding: 10px;
+
+  color: #34355b;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+#cookieClosed p {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  background: #e4edf1;
+  box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.5);
+
+  color: #000;
+  text-align: center;
+  font-family: "Dancing Script";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+#cookieClosed button {
+  display: flex;
+  padding: 16px;
+  align-items: flex-start;
+  gap: 10px;
+
+  border: none;
+  border-radius: 4px;
+  background: #ff9500;
+
+  color: #fff;
+  text-align: center;
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 17px;
+}
+
+.hidden {
+  display: none;
+}
