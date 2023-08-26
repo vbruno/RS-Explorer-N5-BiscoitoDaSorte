@@ -77,6 +77,8 @@ main {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+
+  animation: openCookie 3s ease-in-out forwards;
 }
 
 #cookieClosed button {
@@ -98,6 +100,11 @@ main {
   line-height: normal;
 }
 
+#cookieClosed button:hover {
+  box-shadow: 0px 0px 10px 0px rgba(255, 149, 0, 0.5);
+  filter: brightness(0.9);
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -108,4 +115,13 @@ main {
 
 .hidden {
   display: none;
+}
+
+@keyframes openCookie {
+  0% {
+    transform: translateY(150px) scale(0.1);
+  }
+  100% {
+    transform: translateY(0px) scale(1);
+  }
 }
